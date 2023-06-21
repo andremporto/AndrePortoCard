@@ -9,13 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            Color(red: 0.01, green: 0.35, blue: 0.34)
+                .edgesIgnoringSafeArea(.all)
+            VStack {
+                Image("andreporto")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 150, height: 150)
+                    .clipShape(Circle())
+                    .overlay(
+                        Circle().stroke(Color.white, lineWidth: 5)
+                    )
+                Text("André Porto")
+                    .font(Font.custom("Pacifico-Regular", size: 40))
+                    .bold()
+                    .foregroundColor(.white)
+                Text("iOS Developer")
+                    .foregroundColor(.white)
+                    .font(.system(size: 23))
+                Divider()
+                InfoView(text: "+55 79 99910 2696", imageName: "phone.fill")
+                InfoView(text: "andreporto@me.com", imageName: "envelope.fill")
+            }
         }
-        .padding()
     }
 }
 

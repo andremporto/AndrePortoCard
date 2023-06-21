@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A23CB9A52A423813007205EC /* JetBrainsMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A23CB9A32A423813007205EC /* JetBrainsMono-Regular.ttf */; };
+		A23CB9A62A423813007205EC /* JetBrainsMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A23CB9A42A423813007205EC /* JetBrainsMono-SemiBold.ttf */; };
+		A23CB9AA2A423C98007205EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23CB9A92A423C98007205EC /* LaunchScreen.storyboard */; };
+		A23CB9AC2A423E1A007205EC /* MrDafoe-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A23CB9AB2A423E1A007205EC /* MrDafoe-Regular.ttf */; };
+		A23CB9AE2A423F3E007205EC /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A23CB9AD2A423F3E007205EC /* Pacifico-Regular.ttf */; };
+		A23CB9B02A424C18007205EC /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23CB9AF2A424C18007205EC /* InfoView.swift */; };
 		A2F821012A42281C00A640E3 /* AndrePortoCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F821002A42281C00A640E3 /* AndrePortoCardApp.swift */; };
 		A2F821032A42281C00A640E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F821022A42281C00A640E3 /* ContentView.swift */; };
 		A2F821052A42281E00A640E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F821042A42281E00A640E3 /* Assets.xcassets */; };
@@ -14,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A23CB9A12A423742007205EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A23CB9A32A423813007205EC /* JetBrainsMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Regular.ttf"; sourceTree = "<group>"; };
+		A23CB9A42A423813007205EC /* JetBrainsMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		A23CB9A92A423C98007205EC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A23CB9AB2A423E1A007205EC /* MrDafoe-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MrDafoe-Regular.ttf"; sourceTree = "<group>"; };
+		A23CB9AD2A423F3E007205EC /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		A23CB9AF2A424C18007205EC /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		A2F820FD2A42281C00A640E3 /* AndrePortoCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndrePortoCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F821002A42281C00A640E3 /* AndrePortoCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndrePortoCardApp.swift; sourceTree = "<group>"; };
 		A2F821022A42281C00A640E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A23CB9A22A4237F6007205EC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A23CB9AD2A423F3E007205EC /* Pacifico-Regular.ttf */,
+				A23CB9AB2A423E1A007205EC /* MrDafoe-Regular.ttf */,
+				A23CB9A32A423813007205EC /* JetBrainsMono-Regular.ttf */,
+				A23CB9A42A423813007205EC /* JetBrainsMono-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		A2F820F42A42281C00A640E3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +75,13 @@
 		A2F820FF2A42281C00A640E3 /* AndrePortoCard */ = {
 			isa = PBXGroup;
 			children = (
+				A23CB9A22A4237F6007205EC /* fonts */,
+				A23CB9A12A423742007205EC /* Info.plist */,
 				A2F821002A42281C00A640E3 /* AndrePortoCardApp.swift */,
 				A2F821022A42281C00A640E3 /* ContentView.swift */,
+				A23CB9AF2A424C18007205EC /* InfoView.swift */,
 				A2F821042A42281E00A640E3 /* Assets.xcassets */,
+				A23CB9A92A423C98007205EC /* LaunchScreen.storyboard */,
 				A2F821062A42281E00A640E3 /* Preview Content */,
 			);
 			path = AndrePortoCard;
@@ -126,7 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F821082A42281E00A640E3 /* Preview Assets.xcassets in Resources */,
+				A23CB9A62A423813007205EC /* JetBrainsMono-SemiBold.ttf in Resources */,
 				A2F821052A42281E00A640E3 /* Assets.xcassets in Resources */,
+				A23CB9AE2A423F3E007205EC /* Pacifico-Regular.ttf in Resources */,
+				A23CB9AA2A423C98007205EC /* LaunchScreen.storyboard in Resources */,
+				A23CB9AC2A423E1A007205EC /* MrDafoe-Regular.ttf in Resources */,
+				A23CB9A52A423813007205EC /* JetBrainsMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F821032A42281C00A640E3 /* ContentView.swift in Sources */,
+				A23CB9B02A424C18007205EC /* InfoView.swift in Sources */,
 				A2F821012A42281C00A640E3 /* AndrePortoCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +304,7 @@
 				DEVELOPMENT_TEAM = 2Q448G8AH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AndrePortoCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +334,7 @@
 				DEVELOPMENT_TEAM = 2Q448G8AH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AndrePortoCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
